@@ -12,9 +12,10 @@ const transporter = nodemailer.createTransport({
   port: process.env.EMAIL_PORT,
 
   auth: {
-    user: "2b29d044df40dc",
-
-    pass: "e2142564c1acd1",
+    user: "382d063817c591",
+    
+    pass: "156a3089280515",
+   
   },
 });
 exports.signup = async (req, res, next) => {
